@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Basic Page Needs -->
+	<title>Hangman Game | By Jared Ross</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Fonts -->
+
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+
+	<!-- CSS -->
+
+	<link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+	<!-- Primary Page Layout -->
+
+		<!-- Header -->
+		<header>
+		  <div class="container">
+		  	<div class="row">
+		  	  <div class="col-md-12 text-center">
+		  	    <img src="assets/images/banner_logo.png" class="responsive-img" alt="Hangman Logo">
+		  	  </div>
+		  	</div>
+		  	<div class="row">
+		  	  <div class="col-md-12 text-center subtitle">
+		  	  	<h1>Javascript Hangman</h1>
+		  	  </div>
+		  	</div>
+		  </div>
+		</header>
+
+		<main class="container">
+			<div class="row">
+				<div class="col-md-12 text-center headline">
+					<p><span id="userPrompt"></span></p>
+				</div>
+			</div>
+		</main>
+		<main class="container">
+			<div class="row">
+				<div class="col-md-12 text-center panelText">
+					<p>Guess the word!</p>
+					<p>Press any letter to get started!</p>
+					<p>Wins: <span id="wins"></span></p>
+					<p>Current Word: <br><span id="gamehud"></span></p>
+					<p>Number of Guesses Remaining: <span id="guessesLeft"></span></p>
+					<p>Letters Already Guesed:</p>
+					<p><span id="lettersGuessed"></span></p>
+				</div>
+			</div>
+		</main>
+
+
+
+
+		<!-- Footer
+		========================================== -->
+		<footer class="footer">
+			<div class="container">
+				<p class="text-center">&copy; Copyright 2017 Jared Ross</p>
+			</div>
+		</footer>	
+	</body>
+
+	<!-- JavaScript
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<script src="assets/javascript/hangman.js"></script>
+
+</html>
+
+</body>
+</html>
